@@ -1,7 +1,8 @@
-
+import { TodoPage } from "./pages/TodoPage"
+import './global.css';
 
 function App() {
-    return <></>
+    return <TodoPage />
 }
 
 export default App

@@ -1,4 +1,10 @@
-
-.newTaskContainer{
+.tasksContainer{
     
+}
+.newTaskContainer{
+    display: flex;
+    position: absolute;
+    top: 10.812rem;
+    left: 22rem;
+    gap: 0.5rem;
 }

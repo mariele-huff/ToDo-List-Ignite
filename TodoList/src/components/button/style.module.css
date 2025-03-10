@@ -1,0 +1,18 @@
+.createButton{
+    width: 5.625rem;
+    height: 3.25rem;
+    background-color: var( --blue );
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var( --gray-100 );
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+.icon{
+    color: var( --gray-100 );
+}
