@@ -7,9 +7,9 @@ interface CountProps {
 
 export const Count = ( {name, value, color } : CountProps ) => {
     return(
-        <div>
-            <p>{name}</p>
-            <p>{value}</p>
+        <div className={style.countContainer}>
+            <p className={ color == 'purple' ? style.countNamePurple : style.countNameBlue}>{name}</p>
+            <p className={style.countValue}>{value}</p>
         </div>
     )
 }

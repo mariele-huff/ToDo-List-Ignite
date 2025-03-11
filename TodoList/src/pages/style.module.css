@@ -1,10 +1,16 @@
 .tasksContainer{
-    
-}
-.newTaskContainer{
-    display: flex;
     position: absolute;
     top: 10.812rem;
     left: 22rem;
+    right: 22rem;
+}
+.newTaskContainer{
+    display: flex;
     gap: 0.5rem;
+}
+
+.tasksInfoContainer{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
 }
