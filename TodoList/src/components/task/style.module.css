@@ -1,0 +1,26 @@
+.taskContainer{
+    display: flex;
+    padding: 1rem; 
+    justify-content: space-between;
+    background-color: var(--gray-400);
+    border-radius: 0.5rem;
+    align-items: center;
+    width: 100%;
+}
+
+.circle 
+{
+    fill: var(--blue);
+}
+
+.circleCheck 
+{
+    fill: var(--gray-100);
+}
+
+.taskContent{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
