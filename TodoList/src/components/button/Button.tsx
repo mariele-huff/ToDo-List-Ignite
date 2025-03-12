@@ -9,8 +9,8 @@ export const Button = ({ type, ...props }: ButtonProps) => {
     return (
         <button {...props} className={type == 'create' ? style.createButton : style.trashButton}>
             {type == 'create' ? "Criar" : ""}
-            {type == 'create' ? <PlusCircle size={16} className={style.icon} weight="bold" /> :
-                <Trash size={24} className={style.icon} weight="bold" />}
+            {type == 'create' ? <PlusCircle size={16} className={style.createIcon} weight="bold" /> :
+                <Trash size={16} className={style.trashIcon} />}
         </button>
     )
 }
