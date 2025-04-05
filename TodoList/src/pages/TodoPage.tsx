@@ -57,6 +57,7 @@ export const TodoPage = () => {
                     <div className={style.taskListContent}>
                         <TaskList
                             taskListArray={taskListArray}
+                            chengeTaskList={setTaskList}
                             handleCountConcludedTasks={setConcludedTasks}
                             handleCountCreatedTasks={setCreatedTasks}
                         />
